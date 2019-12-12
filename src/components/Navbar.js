@@ -7,14 +7,14 @@ class Navbar extends Component {
   render() {
     return (
       <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5'>
-        <Link to='/'>
+        <Link to='/sneaker-shop'>
           <img src="http://www.pngmart.com/files/1/Sneaker-PNG-Image.png" alt='sneaker store' className='logo navbar-brand' />
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
-            <Link to='/' className='nav-link'>
+            <Link to='/sneaker-shop' className='nav-link'>
               sneakers
-            </Link>              
+            </Link>
           </li>
         </ul>
         <Link to='/cart' className='ml-auto'>
