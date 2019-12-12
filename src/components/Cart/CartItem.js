@@ -3,6 +3,7 @@ import React from 'react';
 const CartItem = ({ item, value }) => {
   const { id, title, img, price, total, count } = item;
   const { increment, decrement, removeItem } = value;
+  // console.log('here', item);
   return (
     <div className='row my-2 text-uppercase text-center'>    
       <div className='col-10 mx-auto col-lg-2'>
