@@ -36,7 +36,7 @@ class ProductDetails extends Component {
                   </p>
                   <p className='text-muted lead'>{description}</p>
                   <div>
-                    <Link to='/'>
+                    <Link to='/sneaker-shop'>
                       <Button>
                         Back To Sneakers
                       </Button>
